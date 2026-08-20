@@ -1,5 +1,5 @@
 # KC Mesh Community wiki
-This is the repo for the KC Mesh wiki.
+This is the repo for the [KC Mesh wiki](https://kcmesh.github.io/communitywiki/).
 
 If you'd like to contribute to this wiki, you may [**fork the Repo and offer your changes as a Pull Request**](pull-request-guide.md).
 Please be sure submissions meet the **Contribution Guidelines**

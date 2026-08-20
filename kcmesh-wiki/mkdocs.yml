@@ -39,9 +39,9 @@ extra_css:
   - stylesheets/extra.css
 
 ### Set up custom site analytics in the overrides/partials/integrations/analytics folder in custom.html
-# extra:
-#   analytics:
-#     provider: custom
+extra:
+  analytics:
+    provider: custom
 
 ### Copyright footer info ###
 copyright: The content of this wiki is created and maintained by the community and does not represent the official views, statements, or endorsements of any corporate entity.
