@@ -4,14 +4,14 @@ This site contains community driven knowledge related to the mesh network center
 
 
 **Ready to continue onwards?**
+
 - Check out the [Getting Started guide](getting-started.md)!
 - Read through the [Frequently Asked Questions](faq-general.md)!
 
 
-### Also check out the cool KC Mesh Discord Community Server!
-Want to join in the fun? Click the link!
+### Check out the KC Mesh Discord Community Server!
+Want to join in the fun? [**Click the link!**](https://discord.gg/yr2QTFSvzN)
 
-[**https://discord.gg/yr2QTFSvzN**](https://discord.gg/yr2QTFSvzN)
 
 **Looking to contribute?**
 

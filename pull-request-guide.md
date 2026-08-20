@@ -21,7 +21,7 @@ Below is the general workflow that a pull request requires:
 ### Forking the GitHub Repository
 
 After one has signed into their GitHub account, you should now see a `Fork` button at the top right area on the KC Mesh Community Wiki. 
-To fork the Brickadia Community Wiki: do the following:
+To fork the KC Mesh Community Wiki: do the following:
 
 1. Click the `Fork` button
 1. Be sure the Owner is set to your own account
@@ -52,7 +52,7 @@ Then return to this guide once you have your changes in place.
 Once you are done making changes to the wiki, we will then need to add our changes to git and create a commit to store them. 
 We will also only want to add files we have added or changed, and nothing else. 
 
-1. Open up a terminal and `cd` into the brickadia wiki folder that was created during the [clone to your pc](#cloning-to-your-pc) step. 
+1. Open up a terminal and `cd` into the KC Mesh wiki folder that was created during the [clone to your pc](#cloning-to-your-pc) step. 
 1. Run `git status` to see what files you have changed/modified. you should see the new files you added as untracked files and files you changed as modified files. 
 1. For each `.md` or `.yml` file you have modified, run `git add path/to/your/file` replacing the `path/to/your/file` section with the location of the file(s) you have added/changed.
 1. If you created a page that added images, use the `git add` command to add the entire folder of images you added to any wiki sections.
@@ -66,7 +66,7 @@ We will also only want to add files we have added or changed, and nothing else.
 1. Verify your files are now on GitHub under your wiki repository on the website.
 
 ### Create a Pull Request
-After making any needed commits to GitHub, you are now ready to create a Pull Request on the Brickadia Community Wiki. 
+After making any needed commits to GitHub, you are now ready to create a Pull Request on the KC Mesh Community Wiki. 
 
 1. Navigate to your copy of the community wiki on GitHub
 1. In the top left area, click the **Pull requests** tab
