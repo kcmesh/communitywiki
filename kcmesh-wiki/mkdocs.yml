@@ -1,0 +1,95 @@
+### Site Settings ###
+site_name: KC Mesh Wiki
+site_url: https://kcmesh.wiki
+repo_name: KC Mesh Community Wiki
+repo_url: https://github.com/kcmesh/communitywiki
+site_description: KC Mesh community wiki
+site_author: KC Mesh Community
+
+
+### Theme settings ###
+theme:
+  name: materialx
+  custom_dir: overrides # Needed for the overrides folder to take effect
+  logo: assets/images/kcmesh-logo.png
+  topbar_style: primary
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/lightbulb-auto
+        name: Switch to Light Mode
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/lightbulb
+        name: Switch to Dark Mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: yellow
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to Auto
+
+extra_css:
+  - stylesheets/extra.css
+
+### Set up custom site analytics in the overrides/partials/integrations/analytics folder in custom.html
+# extra:
+#   analytics:
+#     provider: custom
+
+### Copyright footer info ###
+copyright: The content of this wiki is created and maintained by the community and does not represent the official views, statements, or endorsements of any corporate entity.
+  <div>All artwork is attributed to respective owners unless otherwise stated.
+  <div>All trademarks are the property of their respective owners and are used in this document for descriptive purposes only, without any intention of infringement.
+
+### Plugin loading
+plugins:
+  - search
+  - document-dates:
+      show_author: false
+      recently-updated:
+        limit: 5
+        exclude:
+          - index.md
+
+#### social plugin disabled for now, revisit if the free version ever gets better customizability
+#   - social:
+
+
+### MkDoc extension loading ###
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - tables
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: true
+
+
+### Navigation Hierarchy ###
+### Add your .md files in this section ###
+nav:
+  - Home: index.md
+
+  - Getting Started:
+     - The Basics: getting-started.md
+     - FAQ: faq-general.md
+
+  - Site Info:
+    - About: about.md
+    - Contributing: contributing.md
+    - Report An Issue!: 'https://github.com/kcmesh/communitywiki/issues'
+    - Privacy Policy: privacy-policy.md
