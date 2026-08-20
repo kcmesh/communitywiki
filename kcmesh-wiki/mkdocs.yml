@@ -88,6 +88,9 @@ nav:
      - The Basics: getting-started.md
      - FAQ: faq-general.md
 
+  - Tutorials:
+    - Solar Node: tutorials/solar-node/index.md
+
   - Site Info:
     - About: about.md
     - Contributing: contributing.md
